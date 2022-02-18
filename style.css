@@ -58,3 +58,11 @@ header {
     border-bottom: 10px blue solid;
     height: 25em;
 }
+
+footer {
+    margin-top: 5px;
+    height: 4em;
+    width: 80%;
+    background-color: purple;
+    margin-bottom:20px;
+}
