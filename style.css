@@ -1,0 +1,28 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.margintop{
+    margin-top: 20px;
+}
+
+.clearfix::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+header {
+    background-color: #f09ada;
+    width: 80%;
+    height: 5em;
+}
+
+.slider {
+    width: 80%;
+    height: 17em;
+    background-color: #f6e796;
+  }
+
