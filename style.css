@@ -28,7 +28,33 @@ header {
 
   .parte2 {
     width: 80%;
-    height: 25em;
+    height: 30em;
     background: lightblue;
   }
 
+  .headerparte {
+      height: 5em;
+      border-bottom: 10px solid blue;
+  }
+
+ .left, .right {
+     width: calc(100% / 4);
+     height: 25em;
+ }
+.left {
+    float:left;
+    border-right: 10px solid blue;
+    border-bottom: 10px solid blue;
+}
+.right {
+    float:right;
+    border-left: 10px solid blue;
+    border-bottom: 10px solid blue;
+}
+
+.middle { 
+    float: left;
+    width: calc(100% / 2);
+    border-bottom: 10px blue solid;
+    height: 25em;
+}
